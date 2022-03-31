@@ -19,4 +19,11 @@ func routes(_ app: Application) throws {
     app.get("box") { req in
         try await Cookie.query(on: req.db).with(\.$chips).all()
     }
+    
+    //Make request with params
+    app.get("hello", ":name", ":name2") { req -> String in
+        let name = req.parameters.get("name")!
+        let name2 = req.parameters.get("name2")
+        return "Hello, \(name) and \(name2 ?? "")!"
+    }
 }
