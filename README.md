@@ -5,16 +5,16 @@ vapor xcode
 Vapor & Fluent docs: [Docs](https://docs.vapor.codes/4.0/fluent/overview/)
 
 # SQLite
-## Migration - Create database or update keys
+### Migration - Create database or update keys
 Open project and type: `vapor run migration`
 
 # MySQL
 Change to the MySQL branch
-## Migration - Create database or update keys
-### Its important you start your docker database first
+### Migration - Create database or update keys
+#### Its important you start your docker database first
 Open project and type: `vapor run migration`
                             
-## Docker Database
+### Docker Database
 To create do:
 Open Docker desktop to start Docker Daemon
 
