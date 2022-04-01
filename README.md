@@ -9,7 +9,7 @@ Vapor & Fluent docs: [Docs](https://docs.vapor.codes/4.0/fluent/overview/)
 Open project and type: `vapor run migration`
 
 # MySQL
-### Change to the MySQL branch
+Change to the MySQL branch
 ## Migration - Create database or update keys
 ### Its important you start your docker database first
 Open project and type: `vapor run migration`
