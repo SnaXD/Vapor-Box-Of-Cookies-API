@@ -4,12 +4,13 @@ vapor xcode
 
 Vapor & Fluent docs: [Docs](https://docs.vapor.codes/4.0/fluent/overview/)
 
-# SQLITE
+# SQLite
 ## Migration - Create database or update keys
 Open project and type: `vapor run migration`
 
 # MySQL
 ## Migration - Create database or update keys
+#Its important you start your docker database first
 Open project and type: `vapor run migration`
                             
 ##Docker Database
@@ -19,6 +20,7 @@ Open Docker desktop to start Docker Daemon
 `docker pull mariadb`
                             
 `docker run --name cookie-box -e MYSQL_ROOT_PASSWORD=vapor -p 3306:3306 -d mariadb`
+                            
 Username will be "root" and password "vapor"
 
 To test the connection do:
