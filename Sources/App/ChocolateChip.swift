@@ -5,7 +5,7 @@
 //  Created by Jonathan T. Nielsen on 31/03/2022.
 //
 
-import FluentSQLiteDriver
+import FluentMySQLDriver
 import Vapor
 import Fluent
 
